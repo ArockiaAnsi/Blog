@@ -1,6 +1,5 @@
 
-html
-{
+html{
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNwgK9ifeWyQ5O2iDLfzJwFPYvf8AtCRYFkkxGU4HdySj0iPrMjg");
 	background-size: 100% 100%;
 }
@@ -10,27 +9,23 @@ html
 	max-width: 900px;
 	box-sizing: border-box;
 }
-#divheader
-{
+#divheader{
 	background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS9slixCDCDYWATbiz1R1Ak9PUesZKkidXe9Cig3Yk_fI-UsSf-mg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	height: 200px;
 	padding:30px;overflow: auto;
 }
-#headerfont
-{
+#headerfont{
 	font-size: 190%;
 	 color: white;
 	 font-family: sans-serif;
 }
-	ul
-	{
+	ul{
 		list-style-type: none;
 		padding: 0px ;
 	}
-	li
-	{
+	li{
 		float: left;
 		width: 25%;
 		text-align: center;
@@ -39,62 +34,53 @@ html
 		padding: 10px;
 		margin-bottom: 10px;
 	}
-	li:hover
-	{
+	li:hover{
 		background:#7EB224;
 	}
 
-@media only screen and (max-width: 900px)
-{
+@media only screen and (max-width: 900px){
 #myblog{
- }
+ 	}
 }
-#tech1
-{
+#tech1{
 	width: 70%;
 	float:left;
 	text-align: justify;
 }
-#tech2
-{
+#tech2{
 	width: 35%;
 	float:left;
 	text-align: justify;
 	overflow: auto;
 }
-#tech3
-{
+#tech3{
 	width: 35%;
 	float:left;
 	text-align: justify;
 	overflow: auto;
-	padding-left: 10px;"
+	padding-left: 10px;
 }
-#sidebar
-{
+#sidebar{
 	width: 30%;
 	overflow: auto;
 	padding-left: 10px;
 }
 h1{
-margin-bottom: 10px;
+ 	margin-bottom: 10px;
 }
 p{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-a
-{
-text-decoration:none;
-color:#000;
-display:block;
+a{
+	text-decoration:none;
+	color:#000;
+	display:block;
 }
- section
- {
- padding:10px;
+ section{
+ 	padding:10px;
  }
- #footer
- {
+ #footer{
  	height: 60px;
  	width:100%;
  	background: #1F71CE;
@@ -103,8 +89,7 @@ display:block;
  	margin-bottom: 20px;
  	border-top: 3px solid #6b89a4;
  }
-  footer a:hover
-	{
+  footer a:hover{
 		text-transform: uppercase;
 	        color:red;
 		text-decoration: none
