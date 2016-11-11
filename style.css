@@ -89,7 +89,7 @@ a{
  	margin-bottom: 20px;
  	border-top: 3px solid #6b89a4;
  }
-  footer a:hover{
+  footer b:hover{
 		text-transform: uppercase;
 	        color:red;
 		text-decoration: none
